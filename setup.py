@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 setup(name='supertools',
-      version='0.1.0',
+      version='0.1.1',
       description='A simple python module to provide .__super ability to python 2 classes.',
       author='Arthibus Gisséhel',
       author_email='public-dev-supertools@gissehel.org',
