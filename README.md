@@ -6,21 +6,18 @@ in order to not have to specify the current class name.
 
 Without super nor supertools :
 
-::
     class MyClass(MyParent) :
         def __init__(self) :
             MyParent.__init__(self)
 
 Classical implementation using super (python 2 syntax)
 
-::
     class MyClass(MyParent) :
         def __init__(self) :
             super(MyClass,self).__init__()
 
 Using supertools :
 
-:: 
     from supertools import superable
 
     @superable
